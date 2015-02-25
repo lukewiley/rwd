@@ -1,0 +1,30 @@
+nav { 
+display: inline-block;
+}
+
+nav li {
+	list-style: none;
+
+	float: left;
+	padding: 10px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto 0;
+}
+
+article {
+	width: 90%;
+}
+
+section {
+	width: 45%;
+	float: left;
+
+}
+
+img {
+	width: 100%;
+	min-width: 100%
+}
