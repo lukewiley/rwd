@@ -4,6 +4,19 @@ body {
 	background: url(../img/bg.png)
 }
 
+article section {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+article section h1, footer h3 {
+	font-family: 'Playball', cursive;
+}
+
+
+footer {
+ margin-bottom: 100px
+}
+
 
 
 
@@ -39,35 +52,6 @@ article section {
 }
 
 
-@media (min-width: 960px) {
-	#home {
-		width: 300px;
-	}
-
-	#youtube-big {
-		display: none;
-	}
-}
-
-
-
-@media (min-width: 768px) {
-
-	
-}
-
-
-@media (max-width: 480px) {
-	#youtube-med {
-		display: block;
-	}
-
-	article section {
-		float: none;
-		width: 100%;
-	}
-	
-}
 
 
 
@@ -92,24 +76,62 @@ article section {
 
 	
 	
-	transition: .1s;
+	
 }
 
 .main-nav a {
+	font-family: 'Playball', cursive;
 	display: block;
 	color: black;
 	text-decoration: none;
 	text-align: center;
-	padding: 8px 15px;
+	padding: 8px 20px;
 	border-radius: 5px;
 	background-color: #ddd;
-	trasition: .4s;
+	transition: .4s;
 	
 }
 
 .main-nav a:hover {
-	background-color: #eee;
+
+	background-color: #2E1B75;
 	padding: 8px 20px;
 	transition: .4s;
+	color: #fff;
 }
 
+@media (min-width: 960px) {
+	#home {
+		width: 300px;
+	}
+
+	#youtube-big {
+		display: none;
+	}
+}
+
+
+
+@media (min-width: 768px) {
+
+	
+}
+
+
+@media (max-width: 480px) {
+	#youtube-med {
+		display: block;
+		padding: 10px;
+	}
+
+	article section {
+		float: none;
+		width: 100%;
+	}
+
+
+	.main-nav {
+		width: 480px;
+	}
+	
+}
